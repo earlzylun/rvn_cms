@@ -13,8 +13,9 @@ Our aim is to create a CMS that does not use any database, to be useful for simp
 $rvn = new RVN('INSERT_KEY_HERE');
 ```
 
-
 * Also you will need the **cfg/settings.php** and make sure to update the site_url.  By default it's set to http://localhost/rvn_cms/
+
+**Sample username and password is mentioned in the cfg/settings.php**
 
 * Make sure to update the RewriteBase of the **.htaccess** file with the site_url above, your RewriteBase is */rvn_cms/*.  It must be pointed to subfolder where your site is.  More info about [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html)
 
